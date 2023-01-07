@@ -1,0 +1,704 @@
+/*********************  Default-CSS  *********************/
+:root {scroll-behavior: unset;}
+@font-face {
+    font-family: bitperatorPlus-Regular;
+    src: url(../fonts/bitperatorPlus-Regular.ttf);
+}
+@font-face {
+    font-family: bitperatorPlus-Bold;
+    src: url(../fonts/bitperatorPlus-Bold.ttf);
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+body {
+  	margin: 0;
+  	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+  	overflow-x: hidden;
+  	color: #000;
+	background-color: #FFFFFF;
+  	font-size: 18px;
+	  overflow-x: hidden;
+	line-height: 1.7;
+}
+a,
+span,
+a:hover,
+a:active,
+button {text-decoration: none;}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+p {margin: 0;}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {margin: 0;}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img {max-width: 100%;}
+.cm-overflow{
+	overflow: hidden;
+	touch-action: none;
+}
+.row{margin: 0 -15px;}
+.container{padding: 0 15px;}
+.col, [class*=col-]{padding: 0 15px;}
+.container{margin: 0 auto;}
+/*********************  Default-CSS  End *********************/
+body.cm-overflow{overflow-y: hidden;}
+input{
+	appearance: none;
+}
+/* Hero Section Start */
+#hero_sec{
+	padding-top: 78px;
+	padding-bottom: 167px;
+	background-image: url(../images/hero_bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.mobile_bg,
+.ipad_bg{display: none;}
+.hero_inner{
+	background: #FFFEF3;
+	box-shadow: 6.85879px 3.42939px 58.2997px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(63.4438px);
+	border-radius: 30.0072px;
+	position: relative;
+	padding: 55px 27px 27px;
+	width: 1078px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bg_right_top{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 30.0072px;
+	overflow: hidden;
+	z-index: -1;
+}
+.cm_contaciner .my_nft_wrap{
+	transform:translatex(0px) translatey(16px);
+}
+.my_nft_wrap{
+	text-align: center;
+	padding-left: 145px;
+}
+.logo_wrap{
+	display: inline-block;
+	margin-bottom: 32px;
+}
+.main_ttile{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 1.3;
+	color: #2C2C2C;
+	margin-bottom: 10px;
+}
+.hero_details{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #2C2C2C;
+	max-width: 388px;
+	margin: 0 auto 30px;
+}
+.pr_launch{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.pr_launch_block{
+	width: 223.06px;
+	height: 68.21px;
+	padding: 9px 13px;
+	background: rgba(238, 237, 229, 0.3);
+	box-shadow: 1.84351px 2.76527px 18.4351px rgba(0, 0, 0, 0.17);
+	backdrop-filter: blur(12.9046px);
+	border-radius: 11.9828px;
+	text-align: left;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+.my_nft_wrap .pr_launch .pr_launch_block{
+	backdrop-filter:blur(12.9px) brightness(10) contrast(10) grayscale(1) hue-rotate(360deg) saturate(10);
+	background-color:rgba(255,255,255,0.3);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.progress_wrap{
+	width: 45px;
+	height: 37px;
+	position: relative;
+	line-height: 0;
+}
+
+.radial-circle {
+    position: absolute;
+    top: 70px;
+    left: -110px;
+    width: 197px;
+    height: 24px;
+    transform: rotate(138deg);
+}
+.radial-circle circle{
+	fill: none;
+}
+.radial-circle circle {
+    fill: none;
+    cx: 85;
+    cy: 87;
+    r: 53;
+    stroke-width: 11px !important;
+}
+.progress_wrap span{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.25;
+	color: #1B1B1B;
+	position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pr_launch_block + .pr_launch_block{margin-left: 36px;}
+.pr_launch_details h3{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 1.3;
+	color: #2C2C2C;
+	margin-bottom: 3px;
+}
+.pr_launch_details p{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 1.2;
+	color: #2C2C2C;
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+.pr_launch_details p span{margin-right: 3px;}
+.pr_launch{margin-bottom: 52px;}
+.hero_form_wrap{margin-bottom: 15px;}
+.hero_form_wrap h2{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #2C2C2C;
+	margin-bottom: 5px;
+}
+.my_nft_wrap .hero_form_wrap p{
+	position:relative;
+	top:1px;
+}
+.hero_form_wrap p{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #2C2C2C;
+}
+input[type="text"] {
+	outline: none;
+	border: none;
+}
+.copy_link{
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 65px;
+}
+.copy_link input[type="text"] {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: right;
+	color: #000000;
+	background-color: transparent;
+}
+.clicked::after {content: attr(data-feedback);}
+.cm_btn-copy{
+	border: none;
+	outline: none;
+	margin-left: 5px;
+	cursor: pointer;
+	position: relative;
+	background-color: transparent;
+}
+.btn-copy{
+	position: relative;
+}
+.btn-copy::after {
+    position: absolute;
+    top: -60px;
+    right: -50px;
+    padding-bottom: 11px;
+    Width: 124.57px;
+    Height: 43px;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-image: url(../images/copy_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+	z-index: 99;
+}
+.form_group{
+	width: 442.68px;
+	height: 42.11px;
+	padding-left: 15px;
+	background-image: url(../images/email-input.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form_group input,
+.form_group input::placeholder,
+.form_group input::-webkit-placeholder{
+	font-family: bitperatorPlus-Regular;
+	border: none;
+	outline: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	opacity: 0.5;
+}
+form input:focus .form_group{
+	background-image: url(../images/animatin_img1.png);
+} 
+.form_group input{
+	opacity: 1;
+    width: 65%;
+	background-color: transparent;
+}
+.form_group button{
+	width: 128.68px;
+	height: 42.11px;
+	background-image: url(../images/button-bg.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: bitperatorPlus-Bold;
+	font-size: 13px;
+	line-height: 1.3;
+	color: rgb(4 4 4 / 30%);
+	border: none;
+	outline: none;
+	background-color: transparent;
+	transition: all .4s ease 0s;
+}
+.form_group button:hover{
+	color: rgb(4 4 4 / 100%);
+	background-position: right center;
+}
+body a {
+	cursor: url(../images/cursor1.png) 32 32, pointer;
+}
+body button {
+	cursor: url(../images/cursor.png) 32 32, pointer !important;
+}
+body .form_group button:hover{
+	cursor: url(../images/cursor1.png) 32 32, pointer !important;
+}
+.bg_left_center {
+    position: absolute;
+    bottom: -9px;
+    left: 98px;
+}
+.animation{
+	transition: all 1s ease;
+	position: absolute;
+	z-index: -1;
+}
+.animation_1 {
+    top: 140px;
+    left: 80px;
+	transition-delay: .2s;
+}
+.cm_animation .animation_1{
+	top: 140px;
+    left: -40px;
+}
+.animation_2 {
+	top: 110px;
+    left: 60px;
+	transition-delay: .3s;
+}
+.cm_animation .animation_2{
+	top: 70px;
+    left: -30px;
+}
+.animation_3 {
+    top: 80px;
+    left: 70px;
+	transition-delay: .4s;
+}
+.cm_animation .animation_3{
+	top: 10px;
+    left: 0px;
+}
+.animation_4 {
+	top: 80px;
+    left: 84px;
+	transition-delay: .5s;
+}
+.cm_animation .animation_4{
+	top: -30px;
+    left: 84px;
+}
+.animation_5 {
+    top: 60px;
+    left: 100px;
+	transition-delay: .6s;
+}
+.cm_animation .animation_5{
+	top: 10px;
+    left: 180px
+}
+.animation_6 {
+	top: 100px;
+    left: 141px;
+	transition-delay: .7s;
+}
+.cm_animation .animation_6{
+	top: 70px;
+    left: 221px;
+}
+.animation_7 {
+    top: 146px;
+    left: 120px;
+	transition-delay: .8s;
+}
+.cm_animation .animation_7{
+	top: 146px;
+    left: 240px;
+}
+
+.cm_contaciner{position: relative;}
+.bg_icon_1{
+    position: absolute;
+    top: 3%;
+    left: -81px;
+    z-index: 1;
+    pointer-events: none;
+	animation: top_to_bottom linear 5s infinite alternate-reverse;
+}
+@keyframes top_to_bottom{
+	to{
+		transform: translateY(0px);
+	}
+	from{
+		transform: translateY(40px);
+	}
+}
+.bg_icon_2{
+    position: absolute;
+    bottom: 9%;
+    right: -107px;
+    z-index: 1;
+    pointer-events: none;
+	animation: bottom_to_top linear 5s infinite alternate-reverse;
+}
+@keyframes bottom_to_top{
+	to{
+		transform: translateY(40px);
+	}
+	from{
+		transform: translateY(0px);
+	}
+}
+.inner_screen,
+.innre_screen_b{display: none;}
+.ipad_border,
+.mobile_border{display: none;}
+.section_border{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	line-height: 0;	
+}
+.section_border img{width: 100%;}
+.cm_col-12{padding: 0;}
+/* Hero Section Close */
+/* Footer Section Close */
+.footer_wrapper{
+	background-color: #1D1C1C;
+	padding-top: 75px;
+}
+.footer_menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 42px;
+}
+.footer_menu_wrap{width: 470px;}
+.footer_menu_wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.f_menu_item{
+	display: flex;
+	align-items: center;
+}
+.f_menu_item{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3;
+	color: #FFFFFF;
+}
+.f_menu_item:hover,
+.f_menu_item:hover svg path{
+	color: #5C93FF;
+	stroke: #5C93FF;
+}
+.f_menu_list a{
+	display: inline-block;
+}
+.f_menu_list a + a{margin-top: 13px;}
+.down_arrow{display: none;}
+.link_send{
+	margin-left: 7px;	
+	line-height: 0;
+}
+.get_the_latest_updates{
+	width: 443px;
+	margin-left: auto;
+}
+
+.get_the_latest_updates h2{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+}
+.get_the_latest_updates p{
+	font-family: bitperatorPlus-Regular;
+	font-size: 14px;
+	line-height: 1.3;
+	color: #FFFFFF;
+	opacity: 0.7;
+	max-width: 386px;
+	margin-bottom: 21px;
+}
+#footer_section .form_group {
+    width: 100%;
+	height: 42.11px;
+	background-image: url(../images/footer_email-input.png);
+}
+#footer_section .form_group input,
+#footer_section .form_group input::placeholder,
+#footer_section .form_group input::-webkit-placeholder{
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+#footer_section  .form_group button{background-image: url(../images/bottom-btn.svg);}
+/* #footer_section .form_group input{opacity: 1;} */
+#footer_section .form_group input{
+	opacity: unset;
+}
+#footer_section .form_group input::-webkit-input-placeholder {
+    color: #999;
+}
+#footer_section .form_group input:focus::-webkit-input-placeholder {
+    color: #fff;
+	opacity: 1;
+}
+.cooming_soon{
+	padding:23px 44px 7px;
+	background: #FFFFFF;
+	border-radius: 11.7953px;
+	margin-bottom: 32px;
+	position: relative;
+	margin-top: 21px;
+}
+.footer_logo_and_icon{position: relative;}
+.dummy_bg_1,
+.dummy_bg_2,
+.dummy_bg_3{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 84px;	
+	background: #FFFFFF;
+	opacity: 0.7;
+	border-radius: 10.056px;
+}
+.footer_logo_and_icon{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.dummy_bg_1{
+	top: -7px;
+	width: 1038px;
+}
+.dummy_bg_2{
+	top: -14px;
+	opacity: 0.4;
+	width: 936px;
+}
+.dummy_bg_3{
+	top: -21px;
+	opacity: 0.2;
+	width: 841px;
+}
+.f_logo{margin-right: 40px;	}
+.f_icon ul,
+.logo_icon,
+.f_copy_link{
+	display: flex;
+	align-items: center;
+}
+.f_icon li + li{margin-left: 36px;}
+.f_copy_link{position: relative;}
+.f_copy_link p{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.3;
+	color: #000000;
+	opacity: 0.5;
+	margin-left: 7px;
+	margin-right: 20px;
+}
+.f_copy_link::before{
+	content: 'Coming soon!';
+	position: absolute;
+    top: -127px;
+    right: 44px;
+    padding-bottom: 11px;
+    Width: 239px;
+    Height:68px;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background-image: url(../images/coming-soon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out 0s;
+}
+.f_copy_link:hover::before{
+	opacity: 1;
+	visibility: visible;
+}
+.copy_right_wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 0 22px;
+	position: relative;
+}
+.copy_right_wrap::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 621px;
+	height: 1px;
+	background-image: url(../images/line.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.copy_right_wrap p span{
+	font-family: bitperatorPlus-Regular;
+	font-size: 14px;
+	line-height: 1.3;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+body .copy_right_wrap p a{
+	font-family: bitperatorPlus-Regular;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+	opacity: 1;
+	margin-left: 7px;
+}
+body .copy_right_wrap p a:hover{opacity: 0.8;}
+.copy_right_wrap p + p{margin-left: 50px;}
+.mobile_screen{display: none;}
+.f_icon a img{transition: all 0.3s ease-in-out 0s;}
+.f_icon a:hover img{transform: scale(1.1);}
+/* Footer Section Close */
+
+
+.main_wrapper{
+	position: relative;
+}
+
+body{
+	cursor:url(../images/cursor.png) 32 32, pointer;
+}
+body .play-button-wrapper{
+	cursor:url(../images/cursor1.png) 32 32, pointer;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0);
+	transition: all 0.4s ease;
+}
+body .play-button-wrapper.play-active{
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1);
+}
